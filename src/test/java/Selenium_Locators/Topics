@@ -1,0 +1,37 @@
+/tagname/tagname/tagname/tagname/tagname/tagname/tagname
+/html/body/div/div[3]/form/div/div/div/div/div[2]/input
+//tagname[@attribute='value']
+//input[@name='q']
+//tagname[@attribute='value' or @attribute='value']
+//input[@name='q' or @class='gLFyf gsfi' or @type='text']
+//tagname[@attribute='value' and @attribute='value']
+//input[@name='q' and @class='gLFyf gsfi' and @type='text']
+
+//tagname[contains(@attribute,'Full/Partial-value')]
+//input[contains(@type,'tex')]
+
+//tagname[contains(text(),'Full/Partial-value')]
+//a[contains(text(),'Today')]
+
+//tagname[text()='Fullvalue')]
+
+
+//tagname[starts-with(@attribute,'value')]
+//input[starts-with(@aria-label,'Sea')]
+
+
+//following
+//preceding
+
+
+css
+
+# id
+. class
+
+^ startsWith
+input[class^='gLF']
+* contains
+input[class*='LF']
+$ endsWith
+input[class$='fi']
